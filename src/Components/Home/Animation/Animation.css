@@ -1,0 +1,164 @@
+.amine{
+    display: flex;
+
+}
+
+
+.dot{
+    display:flex;
+    height:25px;
+    width:25px;
+    border-radius: 100%;
+    background-color: #7515e3;
+    align-items: center;
+}
+.components{
+    display: flex;
+    margin-top:20px;
+    gap:20px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.buttons{
+    display: flex;
+    height:50px;
+    width:50px;
+    padding:0px 100px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg,#7515e3,blue);
+    color:blue;
+}
+.element{
+    animation: hand  ease-in-out 9s infinite ;
+}
+@keyframes hand {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    10% {
+        transform: translateX(300px) translateY(-60px);
+    }
+    20% {
+        transform: translateX(125px) translateY(-120px);
+    }
+    30% {
+        transform: translateX(-50px) translateY(-160px);
+    }
+    40% {
+        transform: translateX(150px) translateY(-260px);
+    }
+    55% {
+        transform: translateX(-60px) translateY(-170px);
+    }
+    70% {
+        transform: translateX(120px) translateY(-110px);
+    }
+    90% {
+        transform: translateX(140px) translateY(-10px);
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+
+#dot3 {
+    animation: led1 ease 9s infinite; 
+    
+}
+#dot1{
+    animation: led2 ease 9s infinite; 
+}
+#dot4{
+    animation: led3 ease 9s infinite;
+}
+@keyframes led1 {
+    0% {
+        background-color: #7515e3; /* Starting color */
+    }
+    10% {
+        background-color: #7515e3; /* Midway color */
+    }
+    20% {
+        background-color: white; /* Color change */
+    }
+    30% {
+        background-color: #7515e3;
+    }
+    40% {
+        background-color: #7515e3;
+    }
+    55% {
+        background-color: #7515e3;
+    }
+    70% {
+        background-color: white;
+    }
+    90% {
+        background-color: #7515e3;
+    }
+    100% {
+        background-color: #7515e3; /* Ending color */
+    }
+}
+@keyframes led2 {
+    0% {
+        background-color: #7515e3; /* Starting color */
+    }
+    10% {
+        background-color: #7515e3; /* Midway color */
+    }
+    20% {
+        background-color: #7515e3; /* Color change */
+    }
+    30% {
+        background-color: #7515e3;
+    }
+    40% {
+        background-color: white;
+    }
+    55% {
+        background-color: #7515e3;
+    }
+    70% {
+        background-color: #7515e3;
+    }
+    90% {
+        background-color: #7515e3;
+    }
+    100% {
+        background-color: #7515e3; /* Ending color */
+    }
+}
+@keyframes led3 {
+    0% {
+        background-color: #7515e3; /* Starting color */
+    }
+    10% {
+        background-color: #7515e3; /* Midway color */
+    }
+    20% {
+        background-color: #7515e3; /* Color change */
+    }
+    30% {
+        background-color: #7515e3;
+    }
+    40% {
+        background-color: #7515e3;
+    }
+    55% {
+        background-color: #7515e3;
+    }
+    70% {
+        background-color: #7515e3;
+    }
+    90% {
+        background-color: white;
+    }
+    100% {
+        background-color: #7515e3; /* Ending color */
+    }
+}

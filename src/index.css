@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  background:#090b25;
+  cursor: default;
+}
+
+html
+{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-color:#1F1E1E black;
+  scrollbar-width: thin;
+}
+
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(black,rgb(103, 9, 211),black); /* Set your gradient here */
+  border-radius: 6px; /* Set the border radius of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
